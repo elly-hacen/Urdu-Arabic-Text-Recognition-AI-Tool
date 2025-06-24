@@ -25,7 +25,7 @@ UA-TRAIT is trained on a hybrid Urdu + Arabic dataset:
 ### Setup Dataset
 
 ```bash
-unzip Dataset.zip -d UA-TRAIT/
+unzip ddataset.zip -d UA-TRAIT/
 ````
 
 Expected structure:
