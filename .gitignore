@@ -1,0 +1,5 @@
+__pycache__
+lmdb_test
+lmdb_train
+.venv
+saved_models
