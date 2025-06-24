@@ -1,0 +1,20 @@
+[project]
+name = "ocr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.5"
+dependencies = [
+    "fire>=0.7.0",
+    "imgaug>=0.4.0",
+    "lmdb>=1.6.2",
+    "matplotlib>=3.10.3",
+    "nltk>=3.9.1",
+    "numpy==1.23.5",
+    "opencv-python>=4.8.1.78",
+    "pytz>=2025.2",
+    "timm==0.6.13",
+    "torch>=2.7.0",
+    "torchvision>=0.22.0",
+    "tqdm>=4.67.1",
+]
