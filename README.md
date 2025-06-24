@@ -144,6 +144,4 @@ Some characters in the original dataset triggered runtime crashes during trainin
 - `U+06CC` — Farsi Yeh / Bari Yeh (Urdu)
 - `U+FE87` — Alef with Hamza Below (Isolated Form)
 
-These characters were missing from the original charset and caused:
-
----
+These characters were missing from the original charset
