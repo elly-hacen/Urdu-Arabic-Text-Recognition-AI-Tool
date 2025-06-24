@@ -15,7 +15,7 @@ from model import Model
 from test import validation
 from utils import Averager, Logger
 from dataset import hierarchical_dataset, AlignCollate
-from utils import CTCLabelConverter, AttnLabelConverter
+from utils import CTCLabelConverter
 
 
 import torch
@@ -54,8 +54,6 @@ def train(opt, device):
     """ model configuration """
     if 'CTC' in opt.Prediction:
         converter = CTCLabelConverter(opt.character)
-    else:
-        converter = AttnLabelConverter(opt.character)
     opt.num_class = len(converter.character)
 
     if opt.rgb:
