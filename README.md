@@ -1,6 +1,6 @@
 # Urdu/Arabic - Text Recognition AI Tool
 
-UA-TRAIT is a deep learning–based neural network OCR tool built specifically for recognizing **Urdu & Arabic** scripts. 
+UA-TRAIT is a deep learning–based neural network OCR tool built specifically for recognizing **Urdu & Arabic** scripts.
 It is built using a modern architecture: **HRNet** for feature extraction, **DBiLSTM** for sequence modeling, and **CTC Loss** for transcription.
 
 ---
@@ -46,7 +46,11 @@ UA-TRAIT/
 
 1.  Install `uv`:
 ```bash
-pip install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+On `ArchLinux`:
+```bash
+$ sudo pacman -S uv
 ```
 2. Inside `UA-TRAIT` dir run this cmd:
 
