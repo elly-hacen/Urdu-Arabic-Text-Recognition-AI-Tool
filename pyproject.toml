@@ -1,9 +1,9 @@
 [project]
 name = "ocr"
 version = "0.1.0"
-description = "Add your description here"
+description = "A ddep learnig model for Arabic & Urdu scripts"
 readme = "README.md"
-requires-python = ">=3.11.5"
+requires-python = "==3.11.5"
 dependencies = [
     "fire>=0.7.0",
     "imgaug>=0.4.0",
@@ -14,7 +14,7 @@ dependencies = [
     "opencv-python>=4.8.1.78",
     "pytz>=2025.2",
     "timm==0.6.13",
-    "torch>=2.7.0",
-    "torchvision>=0.22.0",
+    "torch>=2.4.0",
+    "torchvision>=0.19.0",
     "tqdm>=4.67.1",
 ]
